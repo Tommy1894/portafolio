@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+    transition: 0.5;
+}
+.logoimg{
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.nav-wrapper{
+    background-color: #058c93 ;
+    position: sticky !important;
+}
+.nav-wrapper ul a{
+    font-size: 20pt;
+}
+
+.page-footer{
+    background-color: #058c93;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16pt;
+    color: black;
+    background-color: #ccf3f5 ;
+}
+
+p{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: table;
+    text-align: justify;
+    padding-bottom: 3%; 
+}
+
+h3{
+    margin-bottom: 3%;
+    text-align: center;
+    color:#058c93;
+    font-weight: bold;
+}
+
+h4{
+    color:#058c93;
+    text-align: center;
+    font-weight: bold;
+}
+.imagen-circular {
+    border-radius: 50%;
+    display: table; /* Para asegurar que el margen funcione correctamente */
+    border: 6px solid #046983  ;
+}
+
+.mysubtitle2{
+    letter-spacing: 0.5px;
+}
+.progress{
+    height: 15px;
+}
+
+.percentage-circle {
+    position:absolute;
+    text-align: left;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12pt;
+}
+
+#red{
+    margin-left: 5%;
+}
